@@ -1,38 +1,12 @@
-# Student Exercises Part 2: LINQ
 
-## Instructions
+## Student Exercises Database
 
-In the last exercise, you had the instructors assign exercises to students.
+https://github.com/nashville-software-school/bangazon-inc/blob/master/book-1-orientation/chapters/STUDENT_EXERCISES_SQL.md
 
-```cs
-Instructor.AssignExercise(exercise, student);
-```
+In this part of building your application, you will be creating the database tables and the data that you will be querying in your application logic later.
 
-For this exercise, you need to create 4 new `List` instances to `Program.cs`: one to contain students, one to contain exercises, one to contain instructors, and one to contain cohorts.
+You will use `CREATE TABLE` statements and `INSERT` statements to create all the tables necessary for storing information about student exercises in a SQL Server database.
 
-```cs
-List<Student> students = new List<Student>() {
-    Larry,
-    Kristin,
-    Loshanna,
-    Tre
-};
-
-List<Exercise> exercises = new List<Exercise>() {
-    OverlyExcited,
-    SolarSystem,
-    CarLot,
-    DynamicCards
-};
-
-// Same for instructors and cohorts
-```
-
-1. List exercises for the JavaScript language by using the `Where()` LINQ method.
-1. List students in a particular cohort by using the `Where()` LINQ method.
-1. List instructors in a particular cohort by using the `Where()` LINQ method.
-1. Sort the students by their last name.
-1. Display any students that aren't working on any exercises _(Make sure one of your student instances don't have any exercises. Create a new student if you need to.)_
-1. Which student is working on the most exercises? Make sure one of your students has more exercises than the others.
-1. How many students in each cohort?
-
+### Instructions
+1. Create tables from each entity in the Student Exercises ERD.
+1. Populate each table with data. You should have 2-3 cohorts, 5-10 students, 4-8 instructors, 2-5 exercises and each student should be assigned 1-2 exercises.
