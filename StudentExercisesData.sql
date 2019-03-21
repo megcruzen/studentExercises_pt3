@@ -75,32 +75,32 @@ INSERT INTO Exercise (ExerciseName, ExerciseLanguage)
 VALUES ('URL Routing', 'React');
 
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (10, 3);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (10, 4);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (1, 3);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (1, 4);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (11, 3);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (11, 4);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (2, 3);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (2, 4);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (12, 3);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (12, 4);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (3, 3);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (3, 4);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (13, 1);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (13, 2);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (4, 1);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (4, 2);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (14, 1);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (14, 2);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (5, 1);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (5, 2);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (15, 5);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (15, 6);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (6, 5);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (6, 6);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (16, 5);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (16, 6);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (7, 5);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (7, 6);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (17, 7);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (17, 8);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (8, 7);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (8, 8);
 
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (18, 7);
-INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (18, 8);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (9, 7);
+INSERT INTO StudentExercise (StudentId, ExerciseId) VALUES (9, 8);
 
 
 SELECT * FROM Cohort;
